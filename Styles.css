@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#header{
+    background-color: #202020;
+    width: 100%;
+    height: 2.4EM;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#headerText{
+    color: #AAAAAA;
+    font-size: 2EM;
+}
