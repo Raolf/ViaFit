@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     border: 0px;
-    padding: 0px;
+    padding-bottom:80px;
 }
 
 
@@ -79,7 +79,7 @@ div.quarter{
     clear: both;
     height: 80px;
     background-color: #E0E0E0;
-    position:sticky;
+    position:fixed;
     bottom:0;
     width:100%;
 }
