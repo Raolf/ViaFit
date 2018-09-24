@@ -14,6 +14,7 @@ body{
 #headerText{
     color: #AAAAAA;
     font-size: 2EM;
+    font-family: helvetica;
 }
 div.bodyHalf{
     width: 50%;
@@ -40,7 +41,22 @@ div.footBox{
     width: 130px;
     background-color: #E0E0E0;
 }
-p.footText{
+a.footText{
     color: #A0A0A0;
     line-height: 0.5EM;
+    font-family: helvetica;
+}
+a.headerLink:link{
+    text-decoration: none;
+}
+a.headerLink:visited{
+    text-decoration: none;
+}
+a:hover.headerLink{
+    color: chartreuse;
+    text-decoration: none;
+}
+a:active.headerLink{
+    text-decoration: none;
+    color: chartreuse;
 }
