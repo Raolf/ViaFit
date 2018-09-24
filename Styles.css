@@ -12,8 +12,8 @@ body{
     height: 2.4EM;
     margin: 0px;
     border: 0px;
-    padding: 0px;
-    position:fixed;
+    padding: 10px;
+    position:sticky;
     top:0;
 }
 #headerText{
@@ -79,7 +79,7 @@ div.quarter{
     clear: both;
     height: 80px;
     background-color: #E0E0E0;
-    position:fixed;
+    position:sticky;
     bottom:0;
     width:100%;
 }
