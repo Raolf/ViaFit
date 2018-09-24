@@ -18,27 +18,29 @@ body{
 }
 div.bodyHalf{
     width: 50%;
-    height: 500px;
+    min-height: 500px;
+    max-height: 70%;
     float: left;
     background-color: #FFFFFF;
     color: #FFFFFF;
 }
 div.quarter{
+    min-width: 280px;
     width: 46%;
-    height: 46%;
+    min-height: 200px;
+    height: 50%;
     margin: 10px;
     float: left;
     background-color: #CCCCCC;
 }
 #Footer{
     clear: both;
-    width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #E0E0E0;
 }
 div.footBox{
     padding: 10px;
-    width: 130px;
+    width: 200px;
     background-color: #E0E0E0;
 }
 a.footText{
@@ -52,11 +54,11 @@ a.headerLink:link{
 a.headerLink:visited{
     text-decoration: none;
 }
-a:hover.headerLink{
+a.headerLink:hover{
     color: chartreuse;
     text-decoration: none;
 }
-a:active.headerLink{
+a.headerLink:active{
     text-decoration: none;
     color: chartreuse;
 }
