@@ -4,6 +4,13 @@ body{
     padding: 0px;
 }
 #header{
+    width: 100%;
+    min-height: 10px;
+    height: 0.5%;
+    background-color: #202020;
+}
+
+#header:hover{
     background-color: #202020;
     width: 100%;
     height: 2.4EM;
@@ -12,33 +19,70 @@ body{
     padding: 0px;
 }
 #headerText{
-    color: #AAAAAA;
     font-size: 2EM;
     font-family: helvetica;
+    float: left;
 }
+div.headerNavBox{
+    height: 2EM;
+    float: left;
+    margin: 0.4EM 0.4EM 0.4EM 6%;
+}
+a.headerNavText:link{
+    color: #AAAAAA;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+a.headerNavText:visited{
+    color: #AAAAAA;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+a.headerNavText:hover{
+    color: #EEEEEE;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+a.headerNavText:active{
+    color: #AAAAAA;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 div.bodyHalf{
     width: 50%;
-    height: 500px;
+    min-height: 500px;
+    max-height: 70%;
     float: left;
     background-color: #FFFFFF;
     color: #FFFFFF;
 }
 div.quarter{
+    min-width: 280px;
     width: 46%;
-    height: 46%;
+    min-height: 200px;
+    height: 50%;
     margin: 10px;
     float: left;
     background-color: #CCCCCC;
 }
 #Footer{
     clear: both;
-    width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #E0E0E0;
 }
 div.footBox{
     padding: 10px;
-    width: 130px;
+    width: 200px;
     background-color: #E0E0E0;
 }
 a.footText{
@@ -48,16 +92,19 @@ a.footText{
 }
 a.headerLink:link{
     text-decoration: none;
+    color: #CCCCCC;
 }
 a.headerLink:visited{
     text-decoration: none;
+    color: #CCCCCC;
 }
-a:hover.headerLink{
-    color: chartreuse;
+a.headerLink:hover{
     text-decoration: none;
+    color: #EEEEEE;
 }
-a:active.headerLink{
+a.headerLink:active{
     text-decoration: none;
+<<<<<<< HEAD
     color: chartreuse;
 }
 td.timeinfo {
@@ -93,4 +140,7 @@ td.X-fit{
 }
 td.strength{
     background-color:#5af909;
+=======
+    color: #CCCCCC;
+>>>>>>> 518860c7dea27dae8575cd6ce21c9078ee6cc996
 }
