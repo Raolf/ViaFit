@@ -12,7 +12,6 @@ body{
     padding: 0px;
 }
 #headerText{
-    color: #AAAAAA;
     font-size: 2EM;
     font-family: helvetica;
 }
@@ -50,15 +49,17 @@ a.footText{
 }
 a.headerLink:link{
     text-decoration: none;
+    color: #CCCCCC;
 }
 a.headerLink:visited{
     text-decoration: none;
+    color: #AAAAAA;
 }
 a.headerLink:hover{
-    color: chartreuse;
     text-decoration: none;
+    color: #CCCCCC;
 }
 a.headerLink:active{
     text-decoration: none;
-    color: chartreuse;
+    color: #CCCCCC;
 }
