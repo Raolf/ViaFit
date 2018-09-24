@@ -14,7 +14,43 @@ body{
 #headerText{
     font-size: 2EM;
     font-family: helvetica;
+    float: left;
 }
+div.headerNavBox{
+    height: 2EM;
+    float: left;
+    margin: 0.4EM 0.4EM 0.4EM 6%;
+}
+a.headerNavText:link{
+    color: #AAAAAA;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+a.headerNavText:visited{
+    color: #AAAAAA;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+a.headerNavText:hover{
+    color: #EEEEEE;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+a.headerNavText:active{
+    color: #AAAAAA;
+    font-family: helvetica;
+    font-size: 1.6EM;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 div.bodyHalf{
     width: 50%;
     min-height: 500px;
@@ -53,11 +89,11 @@ a.headerLink:link{
 }
 a.headerLink:visited{
     text-decoration: none;
-    color: #AAAAAA;
+    color: #CCCCCC;
 }
 a.headerLink:hover{
     text-decoration: none;
-    color: #CCCCCC;
+    color: #EEEEEE;
 }
 a.headerLink:active{
     text-decoration: none;
