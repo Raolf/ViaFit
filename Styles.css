@@ -104,23 +104,23 @@ a.headerLink:hover{
 }
 a.headerLink:active{
     text-decoration: none;
-<<<<<<< HEAD
     color: chartreuse;
 }
-td.timeinfo {
-    row-span:2 ;
-}
-#tableactivities{
-    float: left;
-}
+
+
+
 th,td{
     border: 5px solid black;
     width:12.5%;
-    height:120px;
+    height:112.5px;
     text-align:center;
     font-size: 1.6em;
     min-width: 10px;
     min-height: 100px;
+    font-family: helvetica;
+}
+th{
+    text-decoration: underline;
 }
 table{
     border-collapse: collapse;
@@ -140,7 +140,8 @@ td.X-fit{
 }
 td.strength{
     background-color:#5af909;
-=======
-    color: #CCCCCC;
->>>>>>> 518860c7dea27dae8575cd6ce21c9078ee6cc996
 }
+td.cardio:hover {background-color: #ffffff;}
+td.fullbody:hover {background-color: #ffffff;}
+td.X-fit:hover {background-color: #ffffff;}
+td.strength:hover {background-color: #ffffff;}
