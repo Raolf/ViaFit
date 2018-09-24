@@ -24,7 +24,6 @@ body{
     float: left;
 }
 div.headerNavBox{
-    visibility: collapse;
     height: 2EM;
     float: left;
     margin: 0.4EM 0.4EM 0.4EM 6%;
