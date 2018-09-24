@@ -3,14 +3,14 @@ body{
     border: 0px;
     padding: 0px;
 }
-#header{
-    width: 100%;
-    min-height: 10px;
-    height: 0.5%;
-    background-color: #202020;
-}
+/*#header{
+        width: 100%;
+        min-height: 10px;
+        height: 0.5%;
+        background-color: #202020;
+}*/
 
-#header:hover{
+#header{
     background-color: #202020;
     width: 100%;
     height: 2.4EM;
@@ -24,6 +24,7 @@ body{
     float: left;
 }
 div.headerNavBox{
+    visibility: collapse;
     height: 2EM;
     float: left;
     margin: 0.4EM 0.4EM 0.4EM 6%;
