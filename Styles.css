@@ -74,6 +74,7 @@ div.quarter{
     height: 50%;
     margin: 10px;
     float: left;
+    padding: 0;
     background-color: #CCCCCC;
 }
 #Footer{
