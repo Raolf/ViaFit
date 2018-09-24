@@ -105,5 +105,44 @@ a.headerLink:hover{
 }
 a.headerLink:active{
     text-decoration: none;
-    color: #CCCCCC;
+    color: chartreuse;
 }
+
+
+
+th,td{
+    border: 5px solid black;
+    width:12.5%;
+    height:112.5px;
+    text-align:center;
+    font-size: 1.6em;
+    min-width: 10px;
+    min-height: 100px;
+    font-family: helvetica;
+}
+th{
+    text-decoration: underline;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+    height: 100%;
+    min-height: 100px;
+}
+tr:hover {background-color:#999999;}
+td.cardio{
+    background-color:#f909ef;
+}
+td.fullbody{
+    background-color:#1d09f9;
+}
+td.X-fit{
+    background-color:#f90909;
+}
+td.strength{
+    background-color:#5af909;
+}
+td.cardio:hover {background-color: #ffffff;}
+td.fullbody:hover {background-color: #ffffff;}
+td.X-fit:hover {background-color: #ffffff;}
+td.strength:hover {background-color: #ffffff;}
