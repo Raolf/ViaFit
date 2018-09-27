@@ -169,3 +169,11 @@ p,h1{
 h1{
     text-decoration: underline;
 }
+
+#infoimgdiv {
+    float: left;
+    clear: left;
+ }
+#infotextdiv {
+    float: left;
+}
