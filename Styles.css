@@ -57,25 +57,44 @@ a.headerNavText:active{
 
 
 div.bodyHalf{
-    width: 50%;
-    min-height: 500px;
-    max-height: 70%;
+    width: 48%;
+    min-height: 200px;
+    max-height: 60%;
     float: left;
     background-color: #FFFFFF;
     color: #FFFFFF;
     font-family: helvetica;
     text-decoration-color: #202020;
 }
+#Feed{
+    width: 48%;
+    max-width: 48%;
+    min-height: 400px;
+    height: 47%;
+    margin: 10px;
+    background-color: #AAAAAA;
+    border: 3px solid black;
+
+}
+#FeedText{
+    margin: 5px;
+    font-family: helvetica;
+}
 div.quarter{
-    min-width: 280px;
-    width: 46%;
+    min-width: 2%;
+    width: 45%;
     min-height: 200px;
-    height: 50%;
+    height: 10%;
     margin: 10px;
     float: left;
-    padding: 0;
+    padding: 0px;
     border: 3px solid black;
-    background-color: #CCCCCC;
+    background-color: #222222;
+}
+img.quarterImg{
+    width:100%;
+    height: 100%;
+    /*height:203.6px;*/
 }
 #Footer{
     clear: both;
@@ -109,7 +128,7 @@ a.headerLink:hover{
 }
 a.headerLink:active{
     text-decoration: none;
-    color: chartreuse;
+    color: #CCCCCC;
 }
 
 
