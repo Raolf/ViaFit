@@ -195,4 +195,19 @@ h1{
  }
 #infotextdiv {
     float: left;
+    font-family: helvetica;
+    text-decoration-color: #202020;
+}
+div.infoh2 {
+    clear: both;
+}
+#ptext {
+    text-align: center;
+    font-family: helvetica;
+    text-decoration-color: #202020;
+
+}
+
+h2 {
+    text-align: center;
 }
