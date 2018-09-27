@@ -56,7 +56,7 @@ a.headerNavText:active{
 }
 
 
-div.bodyHalf{
+div.bodyHalf{ /*bodyHalf is used for dividing sites into halves */
     width: 48%;
     min-height: 200px;
     max-height: 60%;
@@ -66,7 +66,7 @@ div.bodyHalf{
     font-family: helvetica;
     text-decoration-color: #202020;
 }
-#Feed{
+#Feed{ /*Feed is the div containing FeedText*/
     width: 48%;
     max-width: 48%;
     min-height: 400px;
@@ -76,11 +76,11 @@ div.bodyHalf{
     border: 3px solid black;
 
 }
-#FeedText{
+#FeedText{ /*FeedText is the paragraph containing latest updates*/
     margin: 5px;
     font-family: helvetica;
 }
-div.quarter{
+div.quarter{ /*quarter divides a bodyHalf into four spaced divs, typically used for images*/
     min-width: 2%;
     width: 45%;
     min-height: 200px;
@@ -91,12 +91,12 @@ div.quarter{
     border: 3px solid black;
     background-color: #222222;
 }
-img.quarterImg{
+img.quarterImg{ /*quarterImg sizes images in quarter*/
     width:100%;
     height: 100%;
     /*height:203.6px;*/
 }
-#Footer{
+#Footer{ /*Footer at the bottom of the page, contains footBox*/
     clear: both;
     height: 80px;
     background-color: #E0E0E0;
@@ -104,36 +104,36 @@ img.quarterImg{
     bottom:0;
     width:100%;
 }
-div.footBox{
+div.footBox{ /*footBox within Footer, contains links to Facebook and Twitter*/
     padding: 10px;
     width: 200px;
     background-color: #E0E0E0;
 }
-a.footText{
+a.footText{ /*formatting of footBox links*/
     color: #A0A0A0;
     line-height: 0.5EM;
     font-family: helvetica;
 }
-a.headerLink:link{
+a.headerLink:link{ /*link formatting*/
     text-decoration: none;
     color: #CCCCCC;
 }
-a.headerLink:visited{
+a.headerLink:visited{ /*link formatting*/
     text-decoration: none;
     color: #CCCCCC;
 }
-a.headerLink:hover{
+a.headerLink:hover{ /*link formatting*/
     text-decoration: none;
     color: #EEEEEE;
 }
-a.headerLink:active{
+a.headerLink:active{ /*link formatting*/
     text-decoration: none;
     color: #CCCCCC;
 }
 
 
 
-th,td{
+th,td{ /*formatting for the table in activities*/
     border: 5px solid black;
     width:12.5%;
     height:112.5px;
@@ -143,34 +143,34 @@ th,td{
     min-height: 100px;
     font-family: helvetica;
 }
-th{
+th{ /*adds underline to table headers in activities*/
     text-decoration: underline;
 }
-table{
+table{ /*table in activities*/
     border-collapse: collapse;
     width:100%;
     height: 100%;
     min-height: 100px;
 }
-tr:hover {background-color:#999999;}
-td.cardio{
+tr:hover {/*table formatting*/background-color:#999999;}
+td.cardio{ /*table formatting*/
     background-color:#f909ef;
 }
-td.fullbody{
+td.fullbody{/*table formatting*/
     background-color:#1d09f9;
 }
-td.X-fit{
+td.X-fit{/*table formatting*/
     background-color:#f90909;
 }
-td.strength{
+td.strength{/*table formatting*/
     background-color:#5af909;
 }
-td.cardio:hover {background-color: #ffffff;}
-td.fullbody:hover {background-color: #ffffff;}
-td.X-fit:hover {background-color: #ffffff;}
-td.strength:hover {background-color: #ffffff;}
+td.cardio:hover {/*table formatting*/background-color: #ffffff;}
+td.fullbody:hover {/*table formatting*/background-color: #ffffff;}
+td.X-fit:hover {/*table formatting*/background-color: #ffffff;}
+td.strength:hover {/*table formatting*/background-color: #ffffff;}
 
-#aboutdiv{
+#aboutdiv{/*div formating for about page*/
     min-width:200px;
     width: 98%;
     min-height: 200px;
