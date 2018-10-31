@@ -213,3 +213,6 @@ div.infoh2 {
 h2 {
     text-align: center;
 }
+div.toBack{
+    z-index: -10;
+}
